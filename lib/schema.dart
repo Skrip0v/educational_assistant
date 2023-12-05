@@ -1,6 +1,8 @@
 import 'package:isar/isar.dart';
 part 'schema.g.dart';
 
+//Это модель задачи. Класс, который содержит информацию о задачи
+//@collection, fromJson() и toJson() нужны для для базы данных (isar)
 @collection
 class TaskModel {
   Id id;
